@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap");
+
+.logo {
+  font-family: "Cinzel Decorative", cursive;
+  font-size: 3vw;
+  padding-left: 5vw;
+  padding-top: 3.5vh;
+  color: white;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  position: relative;
+  width: 100%;
+  margin: 0px;
+  --blue-color: #203141;
+  --red-color: #f30f11;
+  --grey-color: #817f85;
+  scroll-behavior: smooth;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-family: "PT Serif", serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 8vh;
+  font-size: 3vw;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: var(--red-color);
+}
+/** NAVBAR **/
+
+.navigation-bar {
+  display: flex;
+  background-color: var(--blue-color);
+  justify-content: space-between;
+  color: white;
+  height: 13vh;
+}
+
+.navbar {
+  padding-top: 2vh;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+a > li {
+  padding: 1.4vw;
+  font-size: 1.5vw;
+}
+
+/** MAIN-PICTURE **/
+
+.main-picture {
+  height: 87vh;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+.page-title {
+  margin-bottom: 30vh;
+  padding: 1vw;
+  backdrop-filter: blur(25px);
+  font-size: 5vh;
+  color: var(--blue-color);
+}
+
+/** SCROLL TO TOP **/
+
+#scroll_to_top {
+  position: fixed;
+  width: 25px;
+  height: 25px;
+  bottom: 50px;
+  right: 50px;
+}
+
+.fa-solid {
+  color: var(--blue-color);
+  font-size: 40px;
+  transition-duration: 0.5s;
+}
+
+.fa-solid:hover {
+  color: var(--red-color);
+  font-size: 50px;
+}
+
+/** FOOTER **/
+
+footer {
+  background-color: var(--blue-color);
+  color: white;
+  margin-top: 10vh;
+  margin-bottom: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.horaire {
+  margin-top: 1vw;
+  justify-content: center;
+}

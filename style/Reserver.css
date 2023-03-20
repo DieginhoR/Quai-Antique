@@ -1,0 +1,50 @@
+body {
+  margin: 0px;
+  --blue-color: #203141;
+  --red-color: #f30f11;
+  --grey-color: #817f85;
+  scroll-behavior: smooth;
+  font-family: "Montserrat", sans-serif;
+}
+
+form {
+  padding: 1.4vh 100px;
+  background-color: rgb(228, 227, 227);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input[type="number"],
+input[type="date"],
+input[type="time"],
+textarea {
+  padding: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+  max-width: 400px;
+}
+
+input[type="submit"] {
+  background-color: var(--red-color);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+input[type="submit"]:hover {
+  background-color: #c90d10;
+}

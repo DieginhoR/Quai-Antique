@@ -1,0 +1,22 @@
+body {
+  --blue-color: #203141;
+  --red-color: #f30f11;
+  --grey-color: #817f85;
+  scroll-behavior: smooth;
+}
+
+.main-picture {
+  background-image: url(../img/quai-antique.png);
+}
+
+/** PRÉSENTATION DU CHEF **/
+.img-pres > img {
+  max-width: 35vw;
+  margin: 10vw;
+  border-radius: 5px;
+}
+
+.paragraphe-pres {
+  margin: 5vw;
+  font-size: 3vh;
+}

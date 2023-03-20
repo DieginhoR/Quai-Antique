@@ -1,0 +1,46 @@
+/** MAIN PICTURE **/
+
+.main-picture {
+  background-image: url(../img/menu.jpg);
+  margin-bottom: 10vh;
+}
+
+/** CONTENT **/
+
+.wrap {
+  margin-bottom: 5vh;
+}
+
+h2 {
+  font-size: 1.6vw;
+  font-style: italic;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.left {
+  margin-left: 10vw;
+}
+
+.right {
+  margin-right: 10vw;
+}
+
+.menu {
+  list-style: circle;
+  font-size: 1.2vw;
+}
+
+.prix {
+  font-size: 1vw;
+  font-style: italic;
+}
+
+.img-menu {
+  width: 40vw;
+  border-radius: 20px;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <title>Quai Antique</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../style/Reserver.css" />
+  </head>
+
+  <body>
+    <script
+      src="https://kit.fontawesome.com/2e9612c197.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <nav class="navigation-bar">
+      <a href="../index.html"><h1 class="logo">Quai Antique</h1></a>
+
+      <ul class="navbar">
+        <a href="QuiSommeNous.html"><li>Qui sommes nous</li></a>
+        <a href="Carte.html"><li>Carte</li></a>
+        <a href="Menu.html"><li>Menu</li></a>
+        <a href="Reserver.html"><li>Reserver</li></a>
+        <a href="Connexion.html"><li>Connexion</li></a>
+      </ul>
+    </nav>
+
+    <div class="wrapper">
+      <form class="reserver" action="../php/Reserver.php" method="post">
+        <label for="nombre-couverts">Nombre de couverts :</label>
+        <input
+          type="number"
+          id="nombre-couverts"
+          name="nombre-couverts"
+          required
+        />
+
+        <label for="date">Date :</label>
+        <input type="date" id="date" name="date" required />
+
+        <label for="heure">Heure prévue :</label>
+        <input
+          type="time"
+          min="11:00"
+          max="23h00"
+          step="1500"
+          id="heure"
+          name="heure"
+          required
+        />
+
+        <label for="allergies">Mention des allergies :</label>
+        <textarea id="allergies" name="allergies" rows="4"></textarea>
+
+        <input type="submit" value="Envoyer" />
+      </form>
+    </div>
+
+    <div id="scroll_to_top">
+      <a href="#"><i class="fa-solid fa-circle-up up_arrow"></i></a>
+    </div>
+
+    <footer>
+      <div class="wrapper">
+        <div class="horaire">
+          <h4>Horaires d'ouverture:</h4>
+          <p>
+            Lundi au Vendredi : 11h30 22h00<br />
+            Samedi et Dimanche : 11h00 23h00
+          </p>
+        </div>
+        <div class="mention-legale">
+          <p>Site réalise par ROSÉE Diego</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

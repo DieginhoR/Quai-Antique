@@ -1,0 +1,70 @@
+body {
+  --blue-color: #203141;
+  --red-color: #f30f11;
+  --grey-color: #817f85;
+  scroll-behavior: smooth;
+}
+
+/** MAIN PICTURE **/
+
+.main-picture {
+  background-image: url(../img/raclette.webp);
+}
+
+/**BOUTON ACTIVABLE **/
+
+.action-button {
+  margin: 5vh;
+  padding: 10px 40px;
+  float: left;
+  border-radius: 10px;
+  font-size: 25px;
+  color: #ffffff;
+  text-decoration: none;
+  background-color: var(--blue-color);
+  border-bottom: 5px solid #2d465d;
+  text-shadow: 0px -2px #2980b9;
+  transition: all 0.1s;
+  -webkit-transition: all 0.1s;
+}
+
+.action-button:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  border-bottom: 1px solid;
+}
+
+/** ENTRÉES **/
+h1 {
+  font-weight: 200;
+}
+
+.card-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  border: solid rgb(196, 196, 196) 1px;
+  border-radius: 20px;
+  margin: 4vh 6vw;
+}
+
+.card-img-top {
+  width: 15vw;
+  height: 20vh;
+  border-radius: 20px;
+}
+
+.card-body {
+  justify-content: center;
+}
+
+.plat,
+.entree,
+.dessert,
+.boisson {
+  display: none;
+}
